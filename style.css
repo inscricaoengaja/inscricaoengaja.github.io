@@ -69,3 +69,20 @@ h1.engaja{
         padding-top: 40px;
     }
 }
+
+.sharebuttons{
+    margin:20px;
+    color: #ffae00;
+    max-width: 40px;
+    max-height: 40px;
+    background-color:black;
+}
+
+.sharebuttons2{
+    margin:20px;
+    color: #ffae00;
+    max-width: 50px;
+    max-height: 50px;
+    background-color:black;
+    
+}

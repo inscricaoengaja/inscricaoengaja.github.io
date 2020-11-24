@@ -41,7 +41,7 @@ h1.engaja{
 
 .texto-laranja {
     color: #ffae00;    
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Montserrat;   
 }
 
@@ -85,4 +85,16 @@ h1.engaja{
     max-height: 50px;
     background-color:black;
     
+}
+
+.texto{
+    text-align: justify;
+    margin:0 10% 0 10%;
+    font-size: 2rem;
+    
+}
+.lista{
+    text-align: justify;
+    padding-left: 40%;
+    min-width:300px;
 }

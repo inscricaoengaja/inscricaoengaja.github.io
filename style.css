@@ -86,3 +86,15 @@ h1.engaja{
     background-color:black;
     
 }
+
+.texto{
+    text-align: center;
+    margin:0 10% 0 10%;
+    font-size: 1.5rem;
+    
+}
+.lista{
+    text-align: justify;
+    padding-left: 40%;
+    min-width:300px;
+}

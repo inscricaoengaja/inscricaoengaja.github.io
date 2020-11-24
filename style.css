@@ -48,7 +48,8 @@ h1.engaja, .data{
 .relogio {
     width: 500px;
     box-sizing: border-box;
-    margin-bottom: 2vw;
+    margin-bottom: 5vw;
+    margin-top: 6vw;
 }
 
 .convidados {

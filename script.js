@@ -37,16 +37,3 @@ let funcao = setInterval(function(){
         document.getElementById("botao").innerHTML = "ASSISTA AGORA";
     }
 }, 1000);
-    
-    
-
-
-
-    
-
-
-
-
-
-
-

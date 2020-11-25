@@ -7,9 +7,8 @@ let seg = document.querySelector('.seg')
 
 
 let funcao = setInterval(function(){
-    let data = new Date()
-    let diaEvento = new Date('Nov 25. 2020 20:30:00')
-    let resultadoData = diaEvento - data
+
+    let resultadoData = Date.parse('Nov 25. 2020 20:30:00') - Date.now()
 
     let dia = Math.floor(resultadoData / (1000 * 60 * 60 * 24));
     let horas = Math.floor((resultadoData % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -21,18 +20,21 @@ let funcao = setInterval(function(){
     min.innerHTML = minutos
     seg.innerHTML = segundos
 
-    document.getElementById("dia").innerHTML = dia + " dia "
-    document.getElementById("hrs").innerHTML = horas + " h "
-    document.getElementById("min").innerHTML = minutos + " min "
-    document.getElementById("seg").innerHTML = segundos + " seg "
 
-    if (resultadoData < 0) {
+    if (resultadoData > 1000){
+        document.getElementById("dia").innerHTML = dia + " dia ";
+        document.getElementById("hrs").innerHTML = horas + " h ";
+        document.getElementById("min").innerHTML = minutos + " min ";
+        document.getElementById("seg").innerHTML = segundos + " seg ";
+        document.getElementById("botao").innerHTML = "LINK DO CANAL";
+        }
+    else {
         clearInterval(funcao);
-        document.detElementbyId("dia").innerHTML = ""
-        document.detElementbyId("hrs").innerHTML = ""
-        document.detElementbyId("min").innerHTML = ""
-        document.detElementbyId("seg").innerHTML = ""
-        document.detElementbyId("botao").innerHTML = "ASSISTA AGORA"
+        document.getElementById("dia").innerHTML = "0 dia";
+        document.getElementById("hrs").innerHTML = "0 h";
+        document.getElementById("min").innerHTML = "0 min";
+        document.getElementById("seg").innerHTML = "0 seg";
+        document.getElementById("botao").innerHTML = "ASSISTA AGORA";
     }
 }, 1000);
     

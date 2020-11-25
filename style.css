@@ -69,6 +69,7 @@ h1.engaja, .data{
 }
 
 .imgtext a {
+    max-width: 200px;
     font-family: Montserrat;
     font-size: 1.5rem;
     text-decoration: underline;

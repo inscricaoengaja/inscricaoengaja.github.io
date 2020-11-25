@@ -46,7 +46,6 @@ h1.engaja, .data{
     margin: 0;
 }
 
-
 .convidados {
     display: flex;
     flex-flow: row wrap;
@@ -222,7 +221,7 @@ h1.engaja, .data{
     margin-top: .5vw;
 }
 .formfield{
-    border-radius:10px;
+    border-radius: 10px;
     border:1.5px solid;
     border-color:#ffae00;
     margin-bottom: 1vw;
@@ -244,15 +243,27 @@ h1.engaja, .data{
     padding-right: 10px;
     padding-left: 10px;
 }
-#botao{
-    background-color:#d89505 !important;
-    width:7vw !important;
-    height:7vh !important;
-    min-height: 150px !important;
-    min-width: 300px !important;
-    font-size: 1.5rem !important;
-    font-family: Montserrat !important;
-    padding-right: 10px !important;
-    padding-left: 10px !important;
-    font-weight: bolder !important;
+#botao {
+    background-color:#9e6c00;
+
+    width:7vw;
+    height:7vh;
+    min-height: 150px;
+    min-width: 300px;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color: black;
+
+}
+
+#botao:hover {
+    background-color:#d89505;
+
+    transition-property: all;
+    transition-duration: .50s;
+    transition-timing-function: ease;
+    color: white;
 }

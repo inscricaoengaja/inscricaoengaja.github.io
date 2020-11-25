@@ -245,7 +245,8 @@ h1.engaja, .data{
     padding-left: 10px;
 }
 #botao {
-    background-color:#d89505;
+    background-color:#9e6c00;
+
     width:7vw;
     height:7vh;
     min-height: 150px;
@@ -260,7 +261,8 @@ h1.engaja, .data{
 }
 
 #botao:hover {
-    background-color:#9e6c00;
+    background-color:#d89505;
+
     transition-property: all;
     transition-duration: .50s;
     transition-timing-function: ease;

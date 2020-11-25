@@ -29,12 +29,13 @@ h1.engaja, .data{
     text-justify: center;
     content: '';
     color: #ffae00;
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: Montserrat;
     font-weight: 800;
     letter-spacing: .5rem;
     margin: 0px;
 }
+
 
 .convida {
     text-justify: center;
@@ -230,3 +231,4 @@ h1.engaja, .data{
     border:1.5px solid;
     border-color:#ffae00
 }
+

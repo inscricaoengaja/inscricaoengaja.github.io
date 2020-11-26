@@ -39,5 +39,5 @@ let funcao = setInterval(function(){
 }, 1000);
 
 $('body').mouseleave(function() {
-    alert('Perdeu a live de ontem? Pesquise engajarepresentatividade no youtube e confira!');
+    alert('Perdeu a live de ontem? clique em assista agora!');
  });

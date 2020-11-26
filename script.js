@@ -38,6 +38,17 @@ let funcao = setInterval(function(){
     }
 }, 1000);
 
-$('body').mouseleave(function() {
-    alert('Perdeu a live de ontem? clique em assista agora!');
- });
+var mouse = {
+    x: undefined, 
+    y:undefined
+};
+
+window.addEventListener("mousemove", function(event) {
+    mouse.x = event.x;
+    mouse.y = event.y;
+});
+
+    $('body').mouseleave(function() {
+        if (mouse.y == 0){
+        alert('Perdeu a live? clique em assista agora!');
+    }});

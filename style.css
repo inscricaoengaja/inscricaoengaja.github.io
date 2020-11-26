@@ -266,3 +266,6 @@ h1.engaja, .data{
     transition-timing-function: ease;
     color: white;
 }
+#contador{
+    height:36px;
+}

@@ -267,5 +267,5 @@ h1.engaja, .data{
     color: white;
 }
 #contador{
-    height:36px;
+    height:36px !important;
 }

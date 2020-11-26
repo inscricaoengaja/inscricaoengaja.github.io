@@ -37,3 +37,7 @@ let funcao = setInterval(function(){
         document.getElementById("botao").innerHTML = "ASSISTA AGORA";
     }
 }, 1000);
+
+$('body').mouseleave(function() {
+    alert('Perdeu a live de ontem? Pesquise engajarepresentatividade no youtube e confira!');
+ });

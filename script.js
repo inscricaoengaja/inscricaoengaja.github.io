@@ -1,3 +1,5 @@
+// Cronometro para o evento
+
 let dataAtual = document.querySelector('.data-atual')
 let dataEvento = document.querySelector('.data-evento')
 let dia = document.querySelector('.dia')
@@ -38,10 +40,17 @@ let funcao = setInterval(function(){
     }
 }, 1000);
 
+// Fim Cronometro para o evento
+
+
+// Alerta na saída do mouse pela parte superior da página
+
 var mouse = {
     x: undefined, 
     y:undefined
 };
+
+
 
 window.addEventListener("mousemove", function(event) {
     mouse.x = event.x;
@@ -52,3 +61,5 @@ window.addEventListener("mousemove", function(event) {
         if (mouse.y == 0){
         alert('Perdeu a live? clique em assista agora!');
     }});
+
+// Fim do Alerta na saída do mouse pela parte superior da página

@@ -1,0 +1,50 @@
+.texto-form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.formulario {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* width: 30%; */
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 900px) {
+    .formulario {
+        width: 80vw;
+    }
+}
+
+.myform{
+    text-align: center;
+    color: white
+}
+
+.form{
+    color: #ffae00;    
+    font-size: 1.5rem;
+    font-family: Montserrat; 
+    text-align: center;
+    max-width:356px;
+}
+
+.b{
+    background-color:#ffae00;
+    border-radius: 12px;
+    border-color: #b47c01;
+    padding:5px;
+    width: 220px;
+    margin-top: .5vw;
+    margin-bottom: 5vw;
+}
+.formfield{
+    border-radius: 10px;
+    border:1.5px solid;
+    border-color:#ffae00;
+    margin-bottom: 1vw;
+}

@@ -5,7 +5,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=600, user-scalable=0">
         <meta property="og:title" content="ENGAJA"/>
-        <meta property="og:image" content="https://cdn.discordapp.com/attachments/780811616878067752/780811760226795531/127177721_100921288532518_1115961456347015702_o.png"/>
+        <meta property="og:image" content=""/>
+        <meta property="og:type" content="Live">
         <meta property="og:description" content="A importância da representatividade negra no mundo atual"/>
         <!-- meta -->      
         <!-- Hotjar Tracking Code for https://inscricaoengaja.netlify.app/ -->
@@ -28,28 +29,32 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        <!-- Fonte e estilo -->              
-        <!-- Biblioteca para envio de email a partir do form -->
-        <script src="https://smtpjs.com/v3/smtp.js" async></script>
-        <!-- Biblioteca para envio de email a partir do form -->
-        <!-- Configurando API para gravar respostas do form direto na planilha Google -->
-        <script>
-            function SubForm (){
-                $.ajax({
-                    url:'https://api.apispreadsheets.com/data/4014/',
-                    type:'post',
-                    data:$("#myForm").serializeArray(),
-                    success: function(){
-                    alert("Você está inscrite! :)")
-                    },
-                    error: function(){
-                    alert("There was an error :(")
-                    }
-                });
-            }
-        </script>
-        <!-- Configurando API para gravar respostas do form direto na planilha Googlee -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/text.css">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+</script>
+<script>
+        function SubForm (){
+            $.ajax({
+                url:'https://api.apispreadsheets.com/data/4014/',
+                type:'post',
+                data:$("#myForm").serializeArray(),
+                success: function(){
+                alert("Você está inscrite! :)")
+                },
+                error: function(){
+                alert("There was an error :(")
+                }
+            });
+        }
+</script>
+
         <title>ENGAJA - Representatividade</title>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 
@@ -177,17 +182,17 @@
             <div class="container">
                 <p class="texto3">ESCOLHA SUA REDE SOCIAL FAVORITA <br> E COMPARTILHE!</p>
                     <div class='container2' id='rc'>
-                        <a href="https://telegram.me/share/url?url=https://inscricaoengaja.netlify.app/&text=Engaja" target="_blank"><img id="telegram-logo" src="images/Vector-3.png" class="sharebuttons" alt="Logo do telegram na cor branca em cima de fundo verde."></a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://inscricaoengaja.netlify.app" target="_blank"><img id="facebook-logo" src="images/Vector-1.png" class="sharebuttons" alt="Logo do facebook na cor branca em cima de fundo verde."></a>
-                        <a href="whatsapp://send?text=https://inscricaoengaja.netlify.app" target="_blank"><img id="whatsapp-logo" src="images/Vector-2.png" class="sharebuttons" alt="Logo do whatsapp na cor branca em cima de fundo verde."></a>
-                        <a href="https://twitter.com/share?url=https://inscricaoengaja.netlify.app/&text=Engaja" target="_blank"><img id="twitter-logo" src="images/vector-5.png" class="sharebuttons" alt="Logo do twitter na cor branca em cima de fundo verde." width='50px' heigth='50px'></a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://inscricaoengaja.netlify.app&amp;source=LinkedIn" target="_blank"><img class="sharebuttons" src="images/Vector-4.png" alt="Logo do LinkedIn na cor branca em cima de fundo verde."></a>
+                        <a href="https://telegram.me/share/url?url=https://inscricaoengaja.netlify.app/&text=Engaja" target="_blank"><img id="telegram-logo" src="img/Vector-3.png" class="sharebuttons" alt="Logo do telegram na cor branca em cima de fundo verde."></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://inscricaoengaja.netlify.app" target="_blank"><img id="facebook-logo" src="img/Vector-1.png" class="sharebuttons" alt="Logo do facebook na cor branca em cima de fundo verde."></a>
+                        <a href="whatsapp://send?text=https://inscricaoengaja.netlify.app" target="_blank"><img id="whatsapp-logo" src="img/Vector-2.png" class="sharebuttons" alt="Logo do whatsapp na cor branca em cima de fundo verde."></a>
+                        <a href="https://twitter.com/share?url=https://inscricaoengaja.netlify.app/&text=Engaja" target="_blank"><img id="twitter-logo" src="img/vector-5.png" class="sharebuttons" alt="Logo do twitter na cor branca em cima de fundo verde." width='50px' heigth='50px'></a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://inscricaoengaja.netlify.app&amp;source=LinkedIn" target="_blank"><img class="sharebuttons" src="img/Vector-4.png" alt="Logo do LinkedIn na cor branca em cima de fundo verde."></a>
                     </div>
             </div>
             <!-- Compartilhamento nas redes sociais -->
         </main>
 
-        <script src="script.js"></script>
+        <script src="js/script.js"></script>
     
     </body>
     

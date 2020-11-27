@@ -35,19 +35,19 @@
         <!-- Biblioteca para envio de email a partir do form -->
         <!-- Configurando API para gravar respostas do form direto na planilha Google -->
         <script>
-                function SubForm (){
-                    $.ajax({
-                        url:'https://api.apispreadsheets.com/data/4014/',
-                        type:'post',
-                        data:$("#myForm").serializeArray(),
-                        success: function(){
-                        alert("Você está inscrite! :)")
-                        },
-                        error: function(){
-                        alert("There was an error :(")
-                        }
-                    });
-                }
+            function SubForm (){
+                $.ajax({
+                    url:'https://api.apispreadsheets.com/data/4014/',
+                    type:'post',
+                    data:$("#myForm").serializeArray(),
+                    success: function(){
+                    alert("Você está inscrite! :)")
+                    },
+                    error: function(){
+                    alert("There was an error :(")
+                    }
+                });
+            }
         </script>
         <!-- Configurando API para gravar respostas do form direto na planilha Googlee -->
         <title>ENGAJA - Representatividade</title>
